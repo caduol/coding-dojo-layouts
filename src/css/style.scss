@@ -1,0 +1,13 @@
+::placeholder{
+    color:gray;
+}
+
+$color: #090f69;
+
+body {
+    background-color: $color;
+    h1 {
+        background:#000;
+        color: #fff
+    }
+}
