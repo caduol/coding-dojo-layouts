@@ -1,0 +1,68 @@
+
+
+
+// Superinfo
+
+.superinfo-bg {
+    background:$dark-blue;
+    color:#fff;
+    .superinfo {
+        max-width:$width-md;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding:10px;
+        a {
+            color:#fff;
+            // margin: 0 10px 10px 0px;
+        }
+        p {
+            // margin: 0 10px 10px 0px;
+        }
+    }
+}
+
+
+// MENU 
+.menu-bg {
+    background:$light-blue;
+    .menu {
+        max-width: $width-md;
+        margin: 0 auto;
+        padding:15px 0;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-between; // ajuste horizontal
+        align-items:center; // ajuste vertical
+
+        .menu-logo {
+            a {
+                font-size: 2.25em;
+                font-weight: bold;
+                margin: 0 10px;
+            }
+        }
+
+        .menu-nav {
+            ul {
+                display:flex;
+                flex-wrap: wrap;
+                a {
+                    display:block;
+                    padding:10px;
+                    font-size: $font-size-content;
+                    transition: color .5s;
+                    &:hover {
+                        color:$dark-blue;
+                    }
+                }
+            }
+        }
+        a {
+            color:#fff;
+        }
+
+    }
+}

@@ -1,4 +1,4 @@
-import "./css/style.scss";
+import "./assets/css/style.scss";
 
 const hello = () => {
   console.log("hello world!!! agora vai");
